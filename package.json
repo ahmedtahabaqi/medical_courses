@@ -1,0 +1,49 @@
+{
+  "name": "medical_courses",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reactions/component": "^2.0.2",
+    "@u-wave/react-vimeo": "^0.6.0",
+    "axios": "^0.18.0",
+    "evergreen-ui": "^4.13.1",
+    "focus-group": "^0.3.1",
+    "material-auto-rotating-carousel": "^3.0.1",
+    "material-ui": "^0.20.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-alice-carousel": "^1.13.1",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-bootstrap-sidebar": "0.0.1",
+    "react-coverflow": "^0.2.20",
+    "react-dom": "^16.8.3",
+    "react-fileupload-progress": "^0.4.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.5",
+    "react-sidebar": "^3.0.2",
+    "react-slick": "^0.23.2",
+    "react-star-ratings": "^2.3.0",
+    "react-swipeable-views": "^0.13.1",
+    "teeny-tap": "^0.2.0",
+    "universal-cookie": "^3.1.0"
+  }
+}

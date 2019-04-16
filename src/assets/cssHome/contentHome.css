@@ -1,0 +1,107 @@
+#continerSlider1{
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#continerSlider2{
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#arownext{
+    font-size: 24px;
+    height: 32px;
+    padding: 7.5px 6px; 
+    width: 32px;
+    color: lightcoral
+}
+#arownext:hover{
+    box-shadow: 0 0 3px 3px rgba(20,23,28,0.1), 0 3px 3px 0 rgba(20,23,28,0.1);
+}
+#card{
+    width: 215px;
+    height: 290px;
+}
+#cardContiner{
+
+    width: 215px;
+    height: 290px;
+    line-height: 1;
+    color: #29303B;
+    background-color: #F7F8FA;
+    margin-left:40px;
+    
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    
+  
+  
+    
+}
+
+#cardcontent{
+  height: 165px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+    cursor: pointer;
+    
+}
+#cardcontent h2{
+    font-size: 1.1rem;
+    padding: 10px 10px 0px 10px;
+}
+#cardcontent p{
+    padding: 10px;
+}
+
+#imgCard{
+    width: 215px;
+    height: 122px;
+   
+    box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+}
+#titlecontiner{
+    display: flex;
+    justify-content: center;
+}
+#titleCourses{
+    text-align: center;
+    color: lightcoral;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width:300px;
+    
+}
+#line{
+    
+    margin:35px 60px 0px 60px;
+    width: 40%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #EC5252 0, #6E1A52 100%);
+
+}
+@media screen and (max-width: 740px) {
+    #cardContiner{
+
+        width: 215px;
+        height: 290px;
+        line-height: 1;
+        color: #29303B;
+        background-color: #F7F8FA;
+        margin-left:25%;
+        
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        vertical-align: top;
+ 
+        
+    }
+}

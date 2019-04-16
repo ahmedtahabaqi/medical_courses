@@ -1,0 +1,106 @@
+/* #colSlide{  height:100vh;} */
+#collapsAddCourse{
+
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(20,23,28,0.15);
+   
+}
+#logoAddCourse{
+    width: 150px;
+}
+#ContinerButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#steps{
+    display: none;
+}
+#selectCategoryContiner ,#priceTitle{
+    margin-top: 20px;
+}
+#selectCategory,#inputPriceCource,#inputnamecourse{
+    width: 100%;
+}
+#AddContentContiner{
+    background-color: #F7F8FA;
+    margin: 50px ;
+
+}
+#media{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 1px 3px 0 rgba(20,23,28,0.15);
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 50px;
+    justify-content: space-between;
+    
+    
+}
+.block-with-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+}
+#AddcourseName{
+    font-size: 1rem;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 21px;
+    max-height: 48px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+#AddImageCourse{
+    width: 200px;
+    height: 100px;
+}
+#col{
+    display: flex;
+    justify-content: center;
+}
+
+#menuEdit1{
+margin-left: 40px; 
+}
+#continerEditAndTrush{
+    display: inline-block;
+}
+#editNameCourse{
+    margin-bottom: 20px;
+}
+#edidUploadImageTitle{
+margin-top: 20px;
+}
+#editAddCourseIcon,#trushAddCourseIcon{
+    cursor: pointer;
+}
+#ContinerR_E_T{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-bottom: 20px;
+}
+.ratingCardCourse{
+padding-left: 10px;
+}
+#headerSlider{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, #0096d9 0, #025cab 100%);
+}
+#tableDash{
+  margin-top: 20px;
+  
+}

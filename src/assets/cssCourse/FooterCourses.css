@@ -1,0 +1,112 @@
+
+
+#trustedicon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#imagecontiner{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+#becomAndbusines{
+    padding-bottom:20px;
+}
+#becomeContiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    padding-left:110px ;
+    padding-right: 110px;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(20,23,28,0.15);
+     
+}
+#becomeContiner h2{
+    font-size: 1.4rem;
+}
+#copyriteContiner{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #fff;
+
+}
+#copyrite{
+    display: flex;
+    padding-top: 15px;    
+}
+#copyrite p{
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+
+#reviweContiner{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 200px;
+}
+#reviweTitle{
+    display: flex;
+    justify-content: space-between;
+    height:40px;
+    padding-left:50px ;
+    padding-right: 50px;
+    box-shadow: 0 1px 3px 0 rgba(20,23,28,0.15);
+     
+}
+#reviewCover{
+    display: flex;
+    width: 100%;
+    padding-right: 20%;
+    box-shadow: 0 1px 3px 0 rgba(20,23,28,0.15);
+}
+#imageReview{
+    width: 500px;
+ padding-left: 50px;
+padding-top: 50px;
+}
+#imageReview p{
+    margin-top: 20px;
+}
+
+#contentReview{
+    margin-left: 50px;
+    padding-top: 50px;
+
+}
+#contentReview p{
+    margin-top: 20px;
+}
+#trestedTitle{
+    margin-top: 50px;
+}
+@media screen and (max-width: 440px) {
+    #copyrite{
+        display: block;    
+        padding-top: 0px; 
+    }
+    #copyrite p{
+        font-size: 0.8rem;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+   
+}
+@media screen and (max-width: 540px) {
+    #reviweTitle{
+        flex-direction: column;
+        height:90px;
+        padding-bottom: 15px;
+    }
+    #reviewCover{
+        padding-right: 2%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    #reviewCover{
+        padding-right: 5%;
+    }
+}

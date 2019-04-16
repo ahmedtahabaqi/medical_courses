@@ -1,0 +1,13 @@
+body {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 1.43;
+  color: #29303B;
+  background-color: #F7F8FA;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

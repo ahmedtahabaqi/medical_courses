@@ -1,0 +1,37 @@
+/* #AddContentContiner{
+    background-color: #F7F8FA;
+    margin: 50px ;
+
+}
+#media{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 1px 3px 0 rgba(20,23,28,0.15);
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 50px;
+    
+}
+#AddcourseName{
+    font-size: 1.1rem;
+    padding-top: 20px;
+    width: 200px;
+    text-align: center;
+
+}
+#AddImageCourse{
+    width: 200px;
+}
+#col{
+    display: flex;
+    justify-content: center;
+}
+#menuEdit{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+ 
+  
+} */

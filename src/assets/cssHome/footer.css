@@ -1,0 +1,76 @@
+#footercontiner{
+background-color: #F7F8FA;
+}
+#getFooter{
+    align-items: center;
+    background-color: #29303B;
+    color: #F7F8FA;
+    display: flex;
+    height: 360px;
+    justify-content: center;
+    justify-content: space-around;
+}
+@media screen and (max-width: 868px) {
+    #getFooter{
+        flex-direction: column;
+        height: 660px;
+  }
+}
+#continerCrosol{
+    height: 360px; 
+}
+#studentCrosol{
+    text-align: center;
+}
+#studentCrosol h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.4rem;
+}
+#mediacrosol{
+    background-color: #FFF;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(20,23,28,0.15);
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-top: 10px;
+    height: 100%;
+    min-height: 200px;
+    padding: 32px;
+}
+#trustedicon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#imagecontiner{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+#becomAndbusines{
+    padding-bottom:20px;
+}
+#becomeContiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    padding-left:110px ;
+    padding-right: 110px;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(20,23,28,0.15);
+     
+}
+#becomeContiner h2{
+    font-size: 1.4rem;
+}
+#copyriteContiner{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #fff;
+
+}
+
+

@@ -1,0 +1,9 @@
+#copyriteContinerAllCourse{
+    bottom:0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #fff;
+
+}

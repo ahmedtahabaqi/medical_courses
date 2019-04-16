@@ -1,0 +1,71 @@
+#allcard{
+    width: 215px;
+    height: 290px;
+}
+#allcardContiner{
+
+    width: 215px;
+    height: 290px;
+    line-height: 1;
+    color: #29303B;
+    background-color: #F7F8FA;
+   
+    
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 20px;
+    
+  
+  
+    
+}
+#col1{
+    display: flex;
+    justify-content: center;
+}
+#allcardcontent{
+  height: 165px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+    display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+    cursor: pointer;
+    
+}
+#allcardcontent h2{
+    font-size: 1.1rem;
+    padding: 10px 10px 0px 10px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  text-overflow: ellipsis;
+
+  line-height: 21px;
+  max-height: 48px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#allcardcontent p{
+    padding: 10px;
+    text-align: center;
+}
+
+#allimgCard{
+    width: 215px;
+    height: 122px;
+   
+    box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+}
+#allimgCardContiner{
+    width: 215px;
+    height: 122px;
+   
+    box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+}
+#btnRatingContiner{
+    margin-bottom: 10px;
+}

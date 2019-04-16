@@ -1,0 +1,101 @@
+
+#iconsearch{
+    margin-left: -40px;}
+#business, #collasible-nav-dropdown{
+    color: #505763;}
+#titleCourseContiner1{
+width:100%;
+flex: 4;
+}
+#titleCourseContiner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(-45deg, #0096d9 0, #025cab 100%);
+    color: #FFF;
+    
+    min-height:295px;
+}
+#titleCourse{
+    padding: 50px 50px 0px 50px;
+    width:100%;
+}
+
+#descripCourse{
+    padding: 0px 50px 0px 50px;
+    width:100%;
+}
+#imgCardCourseContiner{
+    width: 250px;;
+    min-height: 100px;
+    box-shadow: 0 0 1px 1px #f9f9f9, 0 3px 1px 0 #f9f9f9;
+    margin-right: 2.5%;
+    flex: 1;
+}
+#imgCardCourse{
+    width: 100%;;
+    min-height: 100px;
+}
+.rating{
+    width:100%;
+    padding-bottom: 10px;
+    margin-left: 50px;
+   
+    
+}
+
+#languageCourse{
+  margin-left: 20px;
+}
+
+#testvideoContiner{
+    width: 352px;
+    height: 700px;
+    margin-top: 50px;
+    margin-right: 50px;
+    z-index: 1;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+    border-radius: 4px;
+    color: #505763;
+}
+#orginalPrice{
+    color: #fff;
+    text-decoration:solid #eeeeee line-through;
+    font-size: 1.8rem;
+    margin-left: 20px;
+   
+   
+}
+#byNowContiner{
+display: flex;
+margin-left: 50px;
+margin-top: 20px;
+align-items: center;
+}
+#priceNow{
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+/* #price{
+    text-align: center;
+    padding-top: 20px;
+}
+#buyNow{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#buyNow Button{
+   padding-left: 63px; 
+} */
+
+@media screen and (max-width: 768px) {
+    #titleCourseContiner{
+        flex-direction: column;
+    }
+    #imgCardCourseContiner{
+        margin-bottom: 30px;
+    }
+}

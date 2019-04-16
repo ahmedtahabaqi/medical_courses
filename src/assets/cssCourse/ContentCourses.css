@@ -1,0 +1,52 @@
+#AddLectureContinerCourse{
+    box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+    background-color: #f9f9f9;
+    width: 95%;
+    margin-top: 50px;
+    margin-left:2.5% ;
+    margin-right:2.5% ;
+    margin-bottom: 50px;
+}
+#plusContinerAddCourse{
+    /* padding-bottom: 0.5px; */
+    /* box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1); */
+
+}
+#plusContiner1AddCourse{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #efefef;
+    align-items: center;
+    
+}
+#plusContiner1AddCourse span{
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+
+#menuAndTitleCourse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menuiconCourse{
+    padding-left: 10px;
+    cursor: pointer;
+    }
+    #showVideoContinerCourse{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #iconVideoAndNameCourse{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #NameofVideoInLectureCourse{
+        margin-top: 15px;
+      }
+      

@@ -1,0 +1,296 @@
+#col1Dash{
+    background: linear-gradient(0deg, #0096d9 0, #025cab 100%);
+    padding: 0px;
+    margin: 0px;
+}
+#col2Dash{
+    background-color: #F7F8FA;
+    padding: 0px;
+    margin: 0px;
+}
+.logoDash{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#isolate{
+    margin-top: 45px;
+}
+#slideCol{
+    background-color: #2d66af;
+    height: 50px;
+    box-shadow: 0 0 1px 1px rgba(252, 252, 252, 0.1), 0 3px 1px 0 rgba(252, 252, 252, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    color: white;
+    font-weight: bold;
+
+}
+#slideColLogout{
+    background-color: #e73e3e;
+    height: 50px;
+    box-shadow: 0 0 1px 1px rgba(252, 252, 252, 0.1), 0 3px 1px 0 rgba(252, 252, 252, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+#RowDashContent{
+    padding: 0px;
+    margin: 50px;
+}
+#RowDashContent1{
+    padding: 0px;
+    margin: 50px;
+    
+}
+#colBtnDash{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#cardDashContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+}
+#borderCard1{
+    background-color: #fff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    border-radius: 5px;
+    border-left: .25rem solid #4e73df!important;
+    min-width: 200px;
+    max-width: 248.5px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cardDashTitle1{
+    color: #4e73df;
+    margin-bottom: 10px;
+}
+#borderCard2{
+    background-color: #fff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    border-radius: 5px;
+    border-left: .25rem solid #1cc88a!important;
+    min-width: 200px;
+    max-width: 248.5px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cardDashTitle2{
+    color: #1cc88a;
+    margin-bottom: 10px;
+}
+#borderCard3{
+    background-color: #fff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    border-radius: 5px;
+    border-left: .25rem solid #36b9cc!important;
+    min-width: 200px;
+    max-width: 248.5px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cardDashTitle3{
+    color: #36b9cc;
+    margin-bottom: 10px;
+}
+#borderCard4{
+    background-color: #fff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    border-radius: 5px;
+    border-left: .25rem solid #f6c23e!important;
+    min-width: 200px;
+    max-width: 248.5px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cardDashTitle4{
+    color: #f6c23e;
+    margin-bottom: 10px;
+}
+#RowTable{
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+.activeDash1{
+   display: inline-block;
+   width: 100%;
+   border-left: .25rem solid #f73333!important;
+   
+}
+.activeDash2{
+    display: inline-block;
+    width: 100%;
+    border-left: .25rem solid #f73333!important;  
+ }
+ #inputnamepackeg{
+    width: 100%;
+}
+#pricepackeg,#titleImgPackeg{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #col1Dash{
+         height: 150px;
+         display: flex;
+         justify-content: space-between;
+    }
+    .logoDash{
+        margin-top: 0px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #isolate{
+        margin-top: 0px;
+    }
+    #continerButtonDash{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+    #slideCol{
+        background-color: #2d66af;
+        height: 40px;
+        width: 120px;
+        box-shadow: 0 0 1px 1px rgba(252, 252, 252, 0.1), 0 3px 1px 0 rgba(252, 252, 252, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        color: white;
+        font-weight: bold;
+    }
+    .activeDash1{
+        display: inline-block;
+        width: 140px;
+        border-left: .25rem solid #f73333!important;
+        border-top: .25rem solid #2d66af!important;
+        border-bottom: .25rem solid #2d66af!important;
+         
+     }
+     .activeDash2{
+         display: inline-block;
+         width: 140px;
+         border-left: .25rem solid #f73333!important;
+      
+      
+          
+      }
+    #slideColLogout{
+        background-color: #e73e3e;
+        height: 40px;
+        width: 150px;
+        box-shadow: 0 0 1px 1px rgba(252, 252, 252, 0.1), 0 3px 1px 0 rgba(252, 252, 252, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        margin-top: 2px;
+        color: white;
+        font-weight: bold;
+    }
+  
+}
+@media screen and (max-width: 576px) {
+  #teest{display: flex;
+align-items: center;
+justify-content: center;}
+#RowDashContent{
+    padding: 0px;
+    margin: 20px;
+}
+#borderCard1{
+    background-color: #fff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    border-radius: 5px;
+    border-left: .25rem solid #4e73df!important;
+    max-width: 248.5px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cardDashTitle1{
+    color: #4e73df;
+    margin-bottom: 10px;
+}
+.logoDash{
+    margin-top: 0px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#isolate{
+    margin-top: 0px;
+}
+#continerButtonDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+}
+#slideCol{
+    background-color: #2d66af;
+    height: 40px;
+    width: 150px;
+    box-shadow: 0 0 1px 1px rgba(252, 252, 252, 0.1), 0 3px 1px 0 rgba(252, 252, 252, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+}
+#slideColLogout{
+    background-color: #e73e3e;
+    height: 40px;
+    width: 150px;
+    box-shadow: 0 0 1px 1px rgba(252, 252, 252, 0.1), 0 3px 1px 0 rgba(252, 252, 252, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+}
+.activeDash1{
+    display: inline-block;
+    width: 150px;
+    border-left: .25rem solid #f73333!important;
+    margin-left: -25px;
+   
+     
+ }
+ .activeDash2{
+     display: inline-block;
+     width: 150px;
+     border-left: .25rem solid #f73333!important;
+     margin-left: -25px;
+  
+      
+  } 
+}
